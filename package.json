@@ -2,7 +2,7 @@
   "name": "jc-request-adapter",
   "version": "1.0.0",
   "description": "jctrans fe request axios adapter",
-  "author": "zhangxiangyi",
+  "author": "Sherlock09",
   "keywords": [
     "axios",
     "cache",

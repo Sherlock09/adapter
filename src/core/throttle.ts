@@ -1,11 +1,12 @@
 /*
- * @Author: zhangxiangyi
+ * @Author: Sherlock09
  * @Date: 2023-02-09 09:26:46
- * @LastEditTime: 2023-02-14 18:02:35
- * @LastEditors: zhangxiangyi
+ * @LastEditTime: 2023-02-14 18:04:35
+ * @LastEditors: Sherlock09
  * @Description: description
  * @FilePath: /adapter/src/core/throttle.ts
  */
+
 
 import { AxiosAdapter, AxiosPromise, AxiosRequestConfig } from 'axios';
 import LRUCache from 'lru-cache';

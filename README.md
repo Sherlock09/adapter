@@ -1,10 +1,10 @@
-# jc-axios-adapter
+# axios-adapter
 
 ## cache Usage
 
 ```javascript
 import axios from 'axios';
-import { cacheAdapter } from 'jc-axios-adapter';
+import { cacheAdapter } from 'axios-adapter';
 const request = axios.create({
 	baseURL: '/',
 	adapter: cacheAdapter(axios.defaults.adapter, {
@@ -21,7 +21,7 @@ request.get('/users', { forceCache: true });
 
 ```javascript
 import axios from 'axios';
-import { cacheAdapter } from 'jc-axios-adapter';
+import { cacheAdapter } from 'axios-adapter';
 const request = axios.create({
 	baseURL: '/',
 	adapter: cacheAdapter(axios.defaults.adapter, {

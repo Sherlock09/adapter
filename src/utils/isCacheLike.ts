@@ -1,11 +1,12 @@
 /*
- * @Author: zhangxiangyi
+ * @Author: Sherlock09
  * @Date: 2023-02-09 09:26:46
- * @LastEditTime: 2023-02-09 10:39:30
- * @LastEditors: zhangxiangyi
+ * @LastEditTime: 2023-02-14 18:04:42
+ * @LastEditors: Sherlock09
  * @Description: description
- * @FilePath: /jc-axios-adapter/src/utils/isCacheLike.ts
+ * @FilePath: /adapter/src/utils/isCacheLike.ts
  */
+
 
 export type ICacheLike<T> = {
   get(key: string): T | undefined;

@@ -1,11 +1,12 @@
 /*
- * @Author: zhangxiangyi
+ * @Author: Sherlock09
  * @Date: 2023-02-09 09:26:46
- * @LastEditTime: 2023-02-09 14:58:08
- * @LastEditors: zhangxiangyi
+ * @LastEditTime: 2023-02-14 18:04:29
+ * @LastEditors: Sherlock09
  * @Description: description
- * @FilePath: /jc-axios-adapter/src/core/retry.ts
+ * @FilePath: /adapter/src/core/retry.ts
  */
+
 
 
 import { AxiosAdapter, AxiosResponse } from 'axios';

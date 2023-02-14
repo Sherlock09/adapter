@@ -1,11 +1,12 @@
 /*
- * @Author: zhangxiangyi
+ * @Author: Sherlock09
  * @Date: 2023-02-09 09:26:46
- * @LastEditTime: 2023-02-09 14:57:13
- * @LastEditors: zhangxiangyi
+ * @LastEditTime: 2023-02-14 18:04:23
+ * @LastEditors: Sherlock09
  * @Description: description
- * @FilePath: /jc-axios-adapter/src/core/cache.ts
+ * @FilePath: /adapter/src/core/cache.ts
  */
+
 
 import { AxiosAdapter, AxiosPromise } from 'axios';
 import LRUCache from 'lru-cache';

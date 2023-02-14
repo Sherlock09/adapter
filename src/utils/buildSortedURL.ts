@@ -1,11 +1,12 @@
 /*
- * @Author: zhangxiangyi
+ * @Author: Sherlock09
  * @Date: 2023-02-09 09:26:46
- * @LastEditTime: 2023-02-09 10:39:23
- * @LastEditors: zhangxiangyi
+ * @LastEditTime: 2023-02-14 18:04:38
+ * @LastEditors: Sherlock09
  * @Description: description
- * @FilePath: /jc-axios-adapter/src/utils/buildSortedURL.ts
+ * @FilePath: /adapter/src/utils/buildSortedURL.ts
  */
+
 
 // @ts-ignore
 import buildURL from 'axios/lib/helpers/buildURL';
