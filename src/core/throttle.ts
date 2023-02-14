@@ -1,10 +1,10 @@
 /*
  * @Author: zhangxiangyi
  * @Date: 2023-02-09 09:26:46
- * @LastEditTime: 2023-02-10 10:40:01
+ * @LastEditTime: 2023-02-14 18:02:35
  * @LastEditors: zhangxiangyi
  * @Description: description
- * @FilePath: /jc-axios-adapter/src/core/throttle.ts
+ * @FilePath: /adapter/src/core/throttle.ts
  */
 
 import { AxiosAdapter, AxiosPromise, AxiosRequestConfig } from 'axios';
