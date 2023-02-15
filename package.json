@@ -1,5 +1,5 @@
 {
-  "name": "jc-request-adapter",
+  "name": "axios-adapter",
   "version": "1.0.0",
   "description": "jctrans fe request axios adapter",
   "author": "Sherlock09",

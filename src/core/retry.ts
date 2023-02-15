@@ -46,7 +46,7 @@ export default function retryHandle(adapter: AxiosAdapter, options: Options = {}
 				}
 				count++;
 				if (process.env.LOGGER_LEVEL === 'info') {
-					console.info(`[jc-request-adapter] request start retrying --> url: ${config.url} , time: ${count}`);
+					console.info(`[axios-adapter] request start retrying --> url: ${config.url} , time: ${count}`);
 				}
 
 				return request();

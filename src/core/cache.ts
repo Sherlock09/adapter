@@ -100,7 +100,7 @@ export default function cacheHandle(adapter: AxiosAdapter, options: Options = {}
 			}
 			if (process.env.LOGGER_LEVEL === 'info') {
 				// eslint-disable-next-line no-console
-				console.info(`[jc-request-adapter] request cached by cache adapter --> url: ${index}`);
+				console.info(`[axios-adapter] request cached by cache adapter --> url: ${index}`);
 			}
 			return responsePromise;
 		}

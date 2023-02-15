@@ -95,7 +95,7 @@ export default function throttleHandle(adapter: AxiosAdapter, options: Options =
 				/* istanbul ignore next */
 				if (process.env.LOGGER_LEVEL === 'info') {
 					// eslint-disable-next-line no-console
-					console.info(`[jc-request-adapter] request cached by throttle adapter --> url: ${index}`);
+					console.info(`[axios-adapter] request cached by throttle adapter --> url: ${index}`);
 				}
 				return responsePromise;
 			}
